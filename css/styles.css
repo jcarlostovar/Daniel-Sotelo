@@ -7,6 +7,12 @@ body {
   color: #FFFFFF;
   background-color: #222222;
 }
+
+.timeline{
+
+text-align: center;
+
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -277,5 +283,6 @@ body {
     text-align: center;
     font-size: 25px;
   }
+
 
 }
