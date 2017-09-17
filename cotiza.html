@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-ES">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,44 +13,50 @@
   <meta name="distribution" content="Mexico, Estados Unidos de America">
   <meta name="robots" content="all">
   <link rel="icon" href="favicon.ico">
+
   <title>Daniel Sotelo</title>
+
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
   <script src="js/ie-emulation-modes-warning.js"></script>
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
 </head>
-<!-- NAVBAR
-================================================== -->
+
 <body>
   <div class="navbar-wrapper">
     <div class="container">
+
       <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
             <a class="navbar-brand" href="index.html">Daniel Sotelo</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
               <li><a href="index.html">Inicio</a></li>
               <li><a href="biografia.html">Biografia</a></li>
-              <li class="active"><a href="contacto.html">Contacto</a></li>
-              <li><a href="cotiza.html">Cotiza</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li class="active"><a href="cotiza.html">Cotiza</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -63,57 +70,74 @@
       </nav>
     </div>
   </div>
+
+
   <div class="container marketing">
     <!-- START THE FEATURETTES -->
-  <div class="container-center">
-    <div class="heat-contact">
-      <div class="col-lg-12 col-md-12 col-sm-12 contacto">
-        <img class="img-circle img-responsive center-block img-circle-contact" src="img/contact.jpg" alt="Imagen de Contacto Daniel Sotelo" width="50%" height="50%">
-        <p class="name-contact">Daniel Sotelo.<span class="text-muted"><br> Artista.</span></p>
-      </div>
-    </div>
-    <div class="col-sm-6 tel">
-      <a href="tel:+5215533972530"> <i class="glyphicon glyphicon-earphone"><small class="dynamicTextColor"><br> LLAMAR</small></i></a>
-    </div>
-    <div class="col-sm-6 tel">
-      <a href="mailto:contratacionesshow@live.com.mx"> <i class="glyphicon glyphicon-envelope"><small class="dynamicTextColor"><br> EMAIL</small></i></a>
-    </div>
-    <div class="v-card">
-      <div class="col-md-12 Description">
-        <h4>Daniel Sotelo la Voz de José José</h4>
-      </div>
-      <div class="col-md-12 tel-1">
-        <i class="glyphicon glyphicon-earphone lineablock"></i>
-        <h4 class="lineablock"><a href="tel:+5215533972530">55 3397 2530</a></h4><br>
-        <small>Teléfono</small>
-      </div>
-      <div class="col-md-12 tel-2">
-        <i class="glyphicon glyphicon-earphone lineablock"></i>
-        <h4 class="lineablock"><a href="tel:+5215512801375">55 1280 1375</a></h4><br>
-        <small>Teléfono</small>
-      </div>
-      <div class="col-md-12 job">
-        <i class="glyphicon glyphicon-briefcase lineablock"></i>
-        <h4 class="lineablock">Voz Gemela de José José</h4><br>
-        <small>Artista</small>
-      </div>
-      <div class="col-md-12 web">
-        <i class="glyphicon glyphicon-globe lineablock"></i>
-        <h4 class="lineablock"><a href="http://danielsotelo.webcindario.com" target="_blank">http://danielsotelo.webcindario.com</a></h4><br>
-        <small>Sito Web</small>
+
+    <hr class="featurette-divider">
+
+    <div class="contenedor-formulario col-md-12">
+      <div class="contendor.interno col-md-12">
+        <form class="enviar.php" method="post">
+
+          <h2 class="titulo">Solicita tu<br><span class="text-muted">Cotización</span></h2>
+          <br>
+          <div class="form-group">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" value="" required>
+          </div>
+          <div class="form-group">
+            <label for="tel">Teléfono</label><br>
+            <input type="tel" name="tel" value="" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo</label><br>
+            <input type="email" name="email" value="" required>
+          </div>
+          <div class="form-group">
+            <label for="ciudad">Ciudad</label><br>
+            <input type="text" name="ciudad" value="" required>
+          </div>
+          <div class="form-group">
+            <label for="estado">Estado</label><br>
+            <input type="text" name="estado" value="" required>
+          </div>
+          <div class="form-group">
+            <label for="evento">Tipo de Evento</label><br>
+            <select class="evento" name="evento" required>
+        <option value="0"></option>
+        <option value="1">Privado</option>
+        <option value="2">Empresarial</option>
+
+      </select>
+            <p class="help-block"><strong>TODOS LOS CAMPOS SON NECESARIOS</strong></p>
+          </div>
+          <button type="submit" name="enviar" class="boton-enviar">ENVIAR</button>
+        </form>
+
+
+
+
+
+
+        <div class="footer">
+          <hr class="featurette-divider">
+        </div>
       </div>
 
-      <!-- /END THE FEATURETTES -->
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Ir al Inicio</a></p>
-        <p>&copy; JCTL Company. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+
+
+
     </div>
+    <footer class="col-md-12">
+      <p class="pull-right"><a href="#">Ir al Inicio</a></p>
+      <p>&copy; JCTL Company. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
   </div>
-  </div>
+
   <!-- Bootstrap core JavaScript
-      ================================================== -->
+    ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script>
@@ -125,4 +149,5 @@
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="js/ie10-viewport-bug-workaround.js"></script>
 </body>
+
 </html>

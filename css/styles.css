@@ -183,6 +183,49 @@ text-align: center;
   padding: 30px;
 }
 
+.contenedor-formulario{
+  text-align: center;
+}
+
+.contenedor-interno{
+  background-color: #444444;
+}
+
+.form-group{
+  color: #919191;
+}
+
+.titulo{
+  font-size: 50px;
+}
+
+input ,  select , .boton-enviar{
+  color: #ffffff;
+  background: #292F33;
+}
+
+select, input{
+  width: 200px;
+  height: 30px;
+  border-style: none;
+
+}
+
+.boton-enviar{
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px 0px;
+  text-align: center;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.boton-enviar:hover{
+  background: #ffffff;
+  color: #292F33;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
