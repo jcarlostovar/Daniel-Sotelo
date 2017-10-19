@@ -11,12 +11,14 @@
                   Telefono: $_POST[tel]
                   Correo: $_POST[email]
                   Ciudad: $_POST[ciudad]
-                  Estado: $_POST[estado] 
+                  Estado: $_POST[estado]
                   Tipo de Evento: $_POST[evento]";
 
-    $headers ='From:'.$_POST['email']."\r\n".
+    $headers ='MIME-Version: 1.0\r\n';
+              'From:'.$_POST['email']."\r\n".
               'Reply-To:'.$_POST['email']."\r\n".
               'X-Mailer:PHP/' . phpversion();
+    $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
               //  "\nCorreo: ".$email.
               //  "\nCiudad: ".$ciudad.
